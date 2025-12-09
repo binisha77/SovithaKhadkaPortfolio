@@ -10,12 +10,12 @@ import Education from '../components/Education'
 function Home() {
   return (
     <div>
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Education />
-      <Contact />
+      <section id="home"><Hero /></section>
+      <section id="about"><About /></section>
+      <section id="skills"><Skills /></section>
+      <section id="projects"><Projects /></section>
+      <section id="education"><Education /></section>
+      <section id="contact"><Contact /></section>
     </div>
   )
 }
