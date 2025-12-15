@@ -8,6 +8,8 @@ import { SiTypescript } from 'react-icons/si';
  import quiz from '../assets/quiz.png'
  import image from '../assets/image.png'
  import backend from '../assets/backend.png'
+  import taskmanager from '../assets/taskmanager.png'
+  import marker from '../assets/marker.png'
 
 
 
@@ -131,6 +133,33 @@ export const skills = [
     icons: [],
     demo: "https://book-store-4cdz-eieh3ps1r-binisha77s-projects.vercel.app",
     code: "https://github.com/binisha77/-codesoft/tree/main/calculator",
+  },
+   {
+    title: "task manager",
+    description: "Todo list application built by angular",
+     image: taskmanager,
+    tech: ["HTML", "CSS","angular","TypeScript"],
+    icons: [],
+    demo: "https://browser-2pz4nm8x4-binisha77s-projects.vercel.app/",
+    code: "https://github.com/binisha77/task-manager",
+  },
+   {
+    title: "Marker",
+    description: "Beginner-friendly project to practice front-end structure and styling ",
+     image: marker,
+    tech: ["HTML", "CSS"],
+    icons: [],
+    demo: "https://30dayspklearningday3-qh88.vercel.app/",
+    code: "https://github.com/binisha77/30dayspklearningday3",
+  },
+  {
+    title: "MongoDB project",
+    description: "CURD operation using mongodb ",
+     image: backend,
+    tech: ["Nodejs", "Express", "MongoDB","javaScript","postman"],
+    icons: [],
+    demo: "#",
+    code: "https://github.com/binisha77/full-stack-developer",
   }
 ];
 

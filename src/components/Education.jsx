@@ -38,6 +38,11 @@ const Education = () => {
               Science stream 
             </p>
           </div>
+          <div className='bg-dark-300 rounded-2xl p-6'>
+            <h3 className='text-xl font-semibold mb-2'>School level </h3>
+            <span className='text-purple'>Manakamana English Boarding School </span> | Beshishar, lamjung <span className='text-gray-400'>  2019</span>
+            
+          </div>
         </div>
       </div>
     </motion.div>
